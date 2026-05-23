@@ -8,19 +8,7 @@
   "theme_color": "#1a3a5c",
   "orientation": "portrait",
   "icons": [
-    {
-      "src": "assets/images/icon.png",
-      "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "any maskable"
-    },
-    {
-      "src": "assets/images/icon.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any maskable"
-    }
-  ],
-  "categories": ["lifestyle", "education"],
-  "lang": "ko"
+    {"src": "/assets/images/icon.png", "sizes": "192x192", "type": "image/png"},
+    {"src": "/assets/images/icon.png", "sizes": "512x512", "type": "image/png"}
+  ]
 }
