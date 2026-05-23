@@ -1,4 +1,4 @@
-const CACHE_NAME = 'family-worship-v2';
+const CACHE_NAME = 'family-worship-v3';
 const urlsToCache = ['/','index.html','/manifest.json'];
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(CACHE_NAME).then(cache => cache.addAll(urlsToCache)));
